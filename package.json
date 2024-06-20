@@ -9,10 +9,13 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "pixi.js": "^8.1.6",
+    "@pixi/spine-pixi": "^1.0.10",
+    "pixi-spine": "^4.0.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=7000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
