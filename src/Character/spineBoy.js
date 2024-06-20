@@ -1,5 +1,5 @@
-import { Character } from "Character";
-import { loadAssets } from "Spine/loader";
+import { Character } from "Character/baseCharacter";
+import { loadAssets } from "SpineApp/utils/loader";
 
 const animationMap = {
   idle: {

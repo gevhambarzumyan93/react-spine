@@ -1,14 +1,17 @@
 import { useEffect } from "react";
 import Summoner from "Summoner";
 import "./App.css";
+// WORKING METHOD 1
 // import "./Spine";
-import { init } from "Singleton";
+import { init } from "SpineApp";
 
+// WORKING METHOD 3
 (() => {
   window.onload = init("app");
 })();
 
 function App() {
+  // WORKING METHOD 2
   // useEffect(() => {
   //   const handleLoad = init("app");
 

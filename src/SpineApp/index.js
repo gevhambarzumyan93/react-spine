@@ -31,3 +31,8 @@ export const init = (elementId) => async () => {
   appElement.appendChild(app.canvas);
   console.log("SpineApp initialized successfully.");
 };
+
+// WORKING METHOD 1
+// (() => {
+//   window.onload = initApp;
+// })();

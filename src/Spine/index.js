@@ -1,7 +1,7 @@
 import "@pixi/spine-pixi";
-import { Character } from "Character";
+import { Character } from "Character/baseCharacter";
 import { SpineBoy } from "Character/spineBoy";
-import { CharacterJSON } from "Character/jsonCharacter";
+import { CharacterJSON } from "Character/baseJsonCharacter";
 import { Application, Assets } from "pixi.js";
 import { loadAssets } from "./loader";
 

@@ -1,7 +1,7 @@
 import { Raptor } from "Character/raptor";
 import { SpineBoy } from "Character/spineBoy";
 import { useEffect, useState } from "react";
-import SpineApp from "./Singleton";
+import SpineApp from "./SpineApp";
 
 export default () => {
   const [count, setCount] = useState(0);

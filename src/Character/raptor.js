@@ -1,5 +1,5 @@
-import { CharacterJSON } from "./jsonCharacter";
-import { loadAssets } from "Spine/loader";
+import { CharacterJSON } from "./baseJsonCharacter";
+import { loadAssets } from "SpineApp/utils/loader";
 
 const animationMap = {
   walk: {
